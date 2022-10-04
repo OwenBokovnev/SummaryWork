@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Enter words AND/OR numbers with SPACE: ");
-string userText = Convert.ToString(Console.ReadLine());
+string? userText = Convert.ToString(Console.ReadLine());
 string[] words = userText.Split(' ');
 
 foreach (var word in words)
